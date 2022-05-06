@@ -21,6 +21,18 @@
     background-color: #fff;
     color: black;
 }
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.active {
+    background-color: #04AA6D;
+    color: white;
+}
 
 footer {
     border: 1px solid black;
