@@ -48,28 +48,37 @@ function generateResults() {
     getResults = 'draw';
   } else if (computerChoice === 'sissors' && userChoice === "rock") {
     getResults = 'You Won';
+    score++;
   } else if (computerChoice === 'sissors' && userChoice === "spock") {
     getResults = 'You Won';
+    score++;
   } else if (computerChoice === 'paper' && userChoice === "sissors") {
     getResults = 'You Won';
+    score++;
   } else if (computerChoice === 'paper' && userChoice === 'lizard') {
     getResults = 'You Won';
+    score++;
   } else if (computerChoice === 'rock' && userChoice === "paper") {
     getResults = 'You Won';
+    score++;
   } else if (computerChoice === 'rock' && userChoice === "spock") {
     getResults = 'You Won';
+    score++;
   } else if (computerChoice === 'lizard' && userChoice === "rock") {
     getResults = 'You Won';
+    score++;
   } else if (computerChoice === 'lizard' && userChoice === "sissors") {
     getResults = 'You Won';
+    score++;
   } else if (computerChoice === 'spock' && userChoice === "paper") {
     getResults = 'You Won';
+    score++;
   } else if (computerChoice === 'spock' && userChoice === "lizard") {
     getResults = 'You Won';
+    score++;
   } else {
     getResults = 'You Lost';
   }
   resultDisplay.innerHTML = getResults;
-  score++;
   scoreDisplay.innerHTML = score;
 }
