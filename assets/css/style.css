@@ -40,6 +40,11 @@
     background-color: #04AA6D;
     color: white;
 }
+#game-Library{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+}
 
 #rpsls-game {
     border: 1px solid black;
