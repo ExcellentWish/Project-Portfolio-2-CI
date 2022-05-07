@@ -106,3 +106,8 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+
+///
+Reference codes 
+https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
