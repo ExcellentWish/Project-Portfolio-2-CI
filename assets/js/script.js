@@ -15,18 +15,27 @@ let scoreDisplay = document.getElementById("rpsls-score");
 let computerScoreDisplay = document.getElementById("computer-rpsls-score");
 let score = 0;
 let computerScore = 0;
-let userChoice = '';
-let computerChoice = '';
+let userChoice;
+let computerChoice;
 let getResults;
 let possibleChoice = document.querySelectorAll(".rpsls-btn");
 
 possibleChoice.forEach(possibleChoice => possibleChoice.addEventListener("click", (event) => {
-  userChoice = event.target.id;
-  userChoiceDisplay.innerHTML = userChoice;
+    userChoice = event.target.id;
+    userChoiceDisplay.innerHTML = userChoice;
 
-  generateComputerChoice();
-  generateResults();
-}))
+    generateComputerChoice();
+    generateResults();
+  }))
+
+  possibleChoice.forEach(possibleChoice => possibleChoice.removeEventListener("click", (event) => {
+      score = 5;
+      score=event.target.id
+
+     computerScore = 5;
+     computerScore=event.target.id
+    }));
+ 
 
 // This is to generate a choice for the computer when playing rpsls
 function generateComputerChoice() {
@@ -86,11 +95,12 @@ function generateResults() {
   }
 
   if(score === 5){ // for a win of the game
-    getResults = ' You Won The Game';
+    getResults = 'You Won The Game';
+    alert('You Won The Game')
     } else if (computerScore === 5){
-    getResults = ' Computer Has Won The Game'
-  }
-
+    getResults = 'Computer Has Won The Game';  
+    alert('Computer Won The Game');
+  }  
   resultDisplay.innerHTML = getResults;
   scoreDisplay.innerHTML = score;
   computerScoreDisplay.innerHTML = computerScore;
