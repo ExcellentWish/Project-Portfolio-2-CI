@@ -5,4 +5,4 @@ function myFunction() {
     } else {
       links.style.display = "block";
     }
-}
+} // code for hamburger menu
