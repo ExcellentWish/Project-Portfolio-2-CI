@@ -15,8 +15,8 @@ let scoreDisplay = document.getElementById("rpsls-score");
 let computerScoreDisplay = document.getElementById("computer-rpsls-score");
 let score = 0;
 let computerScore = 0;
-let userChoice;
-let computerChoice;
+let userChoice = '';
+let computerChoice = '';
 let getResults;
 let possibleChoice = document.querySelectorAll(".rpsls-btn");
 
@@ -85,7 +85,7 @@ function generateResults() {
     computerScore++;
   }
 
-  if(score === 5){
+  if(score === 5){ // for a win of the game
     getResults = ' You Won The Game';
     } else if (computerScore === 5){
     getResults = ' Computer Has Won The Game'
@@ -96,4 +96,14 @@ function generateResults() {
   computerScoreDisplay.innerHTML = computerScore;
 }
 
+document.getElementById('rpsls-reset').addEventListener('click', reset);
 
+function reset() {
+    document.getElementById('rpsls-score').innerHTML = 0;
+    document.getElementById('computer-rpsls-score').innerHTML = 0;
+    score = 0;
+    computerScore = 0;
+    resultDisplay.innerHTML = '';
+    userChoice.innerHTML = '';
+    computerChoice.innerHTML = '';
+}
