@@ -12,7 +12,9 @@ let computerChoiceDisplay = document.getElementById("computer-choice");
 let userChoiceDisplay = document.getElementById("user-choice");
 let resultDisplay = document.getElementById("rpsls-result");
 let scoreDisplay = document.getElementById("rpsls-score");
+let computerScoreDisplay = document.getElementById("computer-rpsls-score");
 let score = 0;
+let computerScore = 0;
 let userChoice;
 let computerChoice;
 let getResults;
@@ -78,7 +80,9 @@ function generateResults() {
     score++;
   } else {
     getResults = 'You Lost';
+    computerScore++;
   }
   resultDisplay.innerHTML = getResults;
   scoreDisplay.innerHTML = score;
+  computerScoreDisplay.innerHTML = computerScore;
 }
