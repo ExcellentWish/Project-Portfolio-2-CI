@@ -117,3 +117,4 @@ function reset() {
     computerScore = 0;
     resultDisplay.innerHTML = '';
 }
+// whack a mole

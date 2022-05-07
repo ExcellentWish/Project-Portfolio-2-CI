@@ -65,7 +65,10 @@
     border: 1px solid #000;
 }
 
-
+.mole {
+    background-image: url(../images/whack-a-mole.png);
+    background-position: center;
+}
 
 footer {
     border: 1px solid black;
