@@ -3,12 +3,14 @@
     padding: 0;
     border: none;
 }
+
 /* Navigation for index pages */
 .topnav {
     overflow: hidden;
     background-color: #333;
     position: relative;
 }
+
 .topnav #myLinks {
     display: none;
 }
@@ -20,10 +22,12 @@
     font-size: 17px;
     display: block;
 }
+
 .topnav a:hover {
     background-color: #fff;
     color: black;
 }
+
 .topnav a.icon {
     background: black;
     display: block;
@@ -37,15 +41,31 @@
     color: white;
 }
 
-#rpsls-game{
+#rpsls-game {
     border: 1px solid black;
     display: block;
 }
 
-#rpsls-rules{
+#rpsls-rules {
     border: 1px solid black;
     display: block;
 }
+
+/*Whack a mole*/
+.whack-a-mole-grid {
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px soild black;
+}
+.square {
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000;
+}
+
+
 
 footer {
     border: 1px solid black;
