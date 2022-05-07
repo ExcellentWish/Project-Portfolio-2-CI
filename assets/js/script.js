@@ -16,6 +16,7 @@ let userChoice;
 let computerChoice;
 let getResults;
 
+// This is to generate a choice for the computer when playing rpsls
 function generateComputerChoice(){
   let randomNumber = Math.floor(Math.random() * 5);
   if(randomNumber === 0){
