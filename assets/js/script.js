@@ -32,3 +32,32 @@ function generateComputerChoice(){
   }
   computerChoiceDisplay.innerHTML = computerChoice;
 }
+
+function generateResults(){
+  if(computerChoice === userChoice){
+    getResults = "draw";
+  } else if (computerChoice === "rock" && userChoice === "paper"){
+    getResults = "You Won";
+  } else if (computerChoice === "rock" && userChoice === "spock"){
+    getResults = "You Won";
+  } else if (computerChoice === "paper" && userChoice === "sissors"){
+    getResults = "You Won";
+  } else if (computerChoice === "paper" && userChoice === "lizard"){
+    getResults = "You Won";
+  } else if (computerChoice === "sissors" && userChoice === "rock"){
+    getResults = "You Won";
+  } else if (computerChoice === "sissors" && userChoice === "spock"){
+    getResults = "You Won";
+  } else if (computerChoice === "lizard" && userChoice === "rock"){
+    getResults = "You Won";
+  } else if (computerChoice === "lizard" && userChoice === "sissors"){
+    getResults = "You Won";
+  } else if (computerChoice === "spock" && userChoice === "paper"){
+    getResults = "You Won";
+  } else if (computerChoice === "spock" && userChoice === "lizard"){
+    getResults = "You Won";
+  } else {
+    getResults = "You Lost";
+  }
+  resultDisplay.innerHtml = getResults;
+}
