@@ -99,11 +99,11 @@ function generateResults() {
 document.getElementById('rpsls-reset').addEventListener('click', reset);
 
 function reset() {
+    document.getElementById('user-choice').innerHTML = '';
+    document.getElementById('computer-choice').innerHTML = '';
     document.getElementById('rpsls-score').innerHTML = 0;
     document.getElementById('computer-rpsls-score').innerHTML = 0;
     score = 0;
     computerScore = 0;
     resultDisplay.innerHTML = '';
-    userChoice.innerHTML = '';
-    computerChoice.innerHTML = '';
 }
