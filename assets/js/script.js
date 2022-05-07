@@ -12,6 +12,7 @@ let computerChoiceDisplay = document.getElementById("computer-choice");
 let userChoiceDisplay = document.getElementById("user-choice");
 let resultDisplay = document.getElementById("rpsls-result");
 let scoreDisplay = document.getElementById("rpsls-score");
+let score = 0;
 let userChoice;
 let computerChoice;
 let getResults;
@@ -66,7 +67,9 @@ function generateResults() {
   } else if (computerChoice === 'spock' && userChoice === "lizard") {
     getResults = 'You Won';
   } else {
-    getResults = 'You lost';
+    getResults = 'You Lost';
   }
   resultDisplay.innerHTML = getResults;
+  score++;
+  scoreDisplay.innerHTML = score;
 }
