@@ -11,10 +11,19 @@ function myFunction() {
 let computerChoiceDisplay = document.getElementById("computer-choice");
 let userChoiceDisplay = document.getElementById("user-choice");
 let resultDisplay = document.getElementById("rpsls-result");
-let scoreDisplay = document.getElementById("rpsls-score")
+let scoreDisplay = document.getElementById("rpsls-score");
 let userChoice;
 let computerChoice;
 let getResults;
+let possibleChoice = document.getElementsByTagName("button");
+
+possibleChoice.forEach(possibleChoice => possibleChoice.addEventListener("click",(event) => {
+  userChoice = event.target.id;
+  userChoiceDisplay.innerHTML = userChoice;
+
+  generateComputerChoice();
+  generateResults();
+}))
 
 // This is to generate a choice for the computer when playing rpsls
 function generateComputerChoice(){
