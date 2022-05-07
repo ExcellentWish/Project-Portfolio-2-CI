@@ -45,6 +45,8 @@ function generateComputerChoice() {
   computerChoiceDisplay.innerHTML = computerChoice;
 }
 
+
+
 function generateResults() {
   if (computerChoice === userChoice) {
     getResults = 'draw';
@@ -82,7 +84,16 @@ function generateResults() {
     getResults = 'You Lost';
     computerScore++;
   }
+
+  if(score === 5){
+    getResults = ' You Won The Game';
+    } else if (computerScore === 5){
+    getResults = ' Computer Has Won The Game'
+  }
+
   resultDisplay.innerHTML = getResults;
   scoreDisplay.innerHTML = score;
   computerScoreDisplay.innerHTML = computerScore;
 }
+
+
