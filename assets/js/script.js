@@ -15,7 +15,7 @@ let scoreDisplay = document.getElementById("rpsls-score");
 let userChoice;
 let computerChoice;
 let getResults;
-let possibleChoice = document.getElementsByTagName("button");
+let possibleChoice = document.querySelectorAll(".rpsls-btn");
 
 possibleChoice.forEach(possibleChoice => possibleChoice.addEventListener("click",(event) => {
   userChoice = event.target.id;
