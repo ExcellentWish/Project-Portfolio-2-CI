@@ -1,7 +1,7 @@
 const squares = document.querySelectorAll('.square');
 const mole = document.querySelector('.mole');
 let timeLeft = document.querySelector('#time-left');
-let score = document.querySelector('#score')
+let score = document.querySelector('#whack-a-mole-score')
 let result = 0;
 let hitPosition;
 let currentTime = 60;
@@ -31,3 +31,17 @@ function moveMole(){
 }
 
 moveMole();
+
+
+function countDown(){
+    currentTime--;
+    timeLeft.textContent = currentTime;
+
+    if(currentTime == 0){
+        clearInterval(countDownTimerId);
+        clearInterval(timerId);
+        alert('Game Over!! You final score is '+result)
+    }
+}
+
+let countDownTimerId = setInterval(countDown, 1000)
