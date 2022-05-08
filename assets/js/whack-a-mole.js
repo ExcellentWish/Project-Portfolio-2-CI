@@ -1,4 +1,8 @@
-const squares = document.getElementsByClassName('square');
-const mole = document.getElementsByClassName('mole');
-let timeLeft = document.getElementById('time-left');
-let scoreWhackaMole = document.getElementById('whack-a-mole-score') 
+const squares = document.querySelectorAll('.square');
+const mole = document.querySelector('.mole');
+let timeLeft = document.querySelector('#time-left');
+let score = document.querySelector('#score')
+let result = 0;
+let hitPosition;
+let currentTime = 60;
+let timerId = null;
