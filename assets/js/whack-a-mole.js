@@ -42,3 +42,20 @@ function countDown(){
     }
 }
 let countDownTimerId = setInterval(countDown, 1000)
+
+
+document.getElementById('wam-reset').addEventListener('click', reset);
+
+function reset() {
+    currentTime = 61;  
+    currentTime--;
+    timeLeft.textContent = currentTime; 
+    timerId = null;
+    result = 0;
+    score.textContent = result;
+    
+    countDownTimerId = setInterval(countDown, 1000)
+    timerId = setInterval(randomSquare, 1000);
+    
+     
+}
