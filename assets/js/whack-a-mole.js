@@ -31,8 +31,6 @@ function moveMole(){
 }
 
 moveMole();
-
-
 function countDown(){
     currentTime--;
     timeLeft.textContent = currentTime;
@@ -43,5 +41,4 @@ function countDown(){
         alert('Game Over!! You final score is '+result)
     }
 }
-
 let countDownTimerId = setInterval(countDown, 1000)
