@@ -91,6 +91,13 @@
     background-color: blue;
 }
 
+.user {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: purple;
+}
+
 footer {
     position: fixed;
     bottom: 0;

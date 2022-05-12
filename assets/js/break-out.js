@@ -4,6 +4,9 @@ const grid = document.querySelector('.break-out-grid');
 const blockWidth = 100;
 const blockHeight = 20;
 
+const userStart = [230,10];
+let currentPostion = userStart;
+
 class Block{
     constructor(xAxis, yAxis) {
     this.bottomLeft = [xAxis, yAxis];
@@ -44,3 +47,14 @@ function addBlocks(){
      }
    }
    addBlocks();
+//for user
+const user = document.createElement('div');
+user.classList.add('user');
+drawUser();
+grid.appendChild(user);
+
+// draw the User
+function drawUser(){
+    user.style.left =  currentPostion[0] + 'px';
+    user.style.bottom = currentPostion[1] + 'px';
+  }
