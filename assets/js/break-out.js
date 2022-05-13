@@ -8,6 +8,10 @@ const ballDiameter = 20;
 const ballStart = [270, 40]
 let ballCurrentPostion = ballStart;
 
+let timerId;
+let xDirection = -2;
+let yDirection = 2;
+
 const userStart = [230, 10];
 let currentPostion = userStart;
 
@@ -106,3 +110,12 @@ const ball = document.createElement('div');
 ball.classList.add('ball');
 drawBall();
 grid.appendChild(ball);
+
+
+function moveBall() {
+    ballCurrentPostion[0] += xDirection;
+    ballCurrentPostion[1] += yDirection;
+    drawBall();
+}
+
+timerId = setInterval(moveBall, 30);
