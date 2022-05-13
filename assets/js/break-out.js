@@ -4,6 +4,10 @@ const grid = document.querySelector('.break-out-grid');
 const blockWidth = 100;
 const blockHeight = 20;
 
+const ballDiameter = 20;
+const ballStart = [270, 40]
+let ballCurrentPostion = ballStart;
+
 const userStart = [230, 10];
 let currentPostion = userStart;
 
@@ -93,7 +97,12 @@ function moveUser(event) {
 
 document.addEventListener('keydown', moveUser);
 
-function drawBall(){
-    ball.style.left = ballCurrentPostion[0] +'px';
-    ball.style.bottom =  ballCurrentPostion[1] +'px'
-  }
+function drawBall() {
+    ball.style.left = ballCurrentPostion[0] + 'px';
+    ball.style.bottom = ballCurrentPostion[1] + 'px'
+}
+
+const ball = document.createElement('div');
+ball.classList.add('ball');
+drawBall();
+grid.appendChild(ball);
