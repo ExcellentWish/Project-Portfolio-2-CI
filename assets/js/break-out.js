@@ -4,6 +4,9 @@ const grid = document.querySelector('.break-out-grid');
 const blockWidth = 100;
 const blockHeight = 20;
 
+const boardHeight = 300
+const boardWidth = 560;
+
 const ballDiameter = 20;
 const ballStart = [270, 40]
 let ballCurrentPostion = ballStart;
@@ -122,14 +125,42 @@ function moveBall() {
 timerId = setInterval(moveBall, 30);
 
 function checkForCollision() {
-        for (let i = 0; i < blocks.length; i++) {
+    for (let i = 0; i < blocks.length; i++) {
         if (
             (ballCurrentPostion[0] > blocks[i].bottomLeft[0] && ballCurrentPostion[0] < blocks[i].bottomRight[0]) &&
             ((ballCurrentPostion[1] + ballDiameter) > blocks[i].bottomLeft[1] && ballCurrentPostion[1] < blocks[i].topLeft[1])
         ) {
             const allBlocks = Array.from(document.querySelectorAll('.block'))
             allBlocks[i].classList.remove('block');
-            blocks.splice(i, 1)
+            blocks.splice(i, 1);
+            changeDirection();
         }
+
+
+        // check for the wall collision
+        if (ballCurrentPostion[0] >= (boardWidth - ballDiameter) ||
+            ballCurrentPostion[1] >= (boardHeight - ballDiameter) ||
+            (ballCurrentPostion[0] <= 0) || (ballCurrentPostion[1] < 0)) {
+            changeDirection();
+        }
+    }
+}
+
+function changeDirection(){
+    if(xDirection === 2 && yDirection == 2){
+      yDirection = -2;
+      return;
+    }
+    if(xDirection === 2 && yDirection === -2){
+      xDirection = -2;
+      return;
+    }
+    if(xDirection === -2 && yDirection === -2){
+    yDirection = 2;
+      return;
+    }
+    if(xDirection === -2 && yDirection === 2){
+      xDirection = 2;
+      return;
     }
 }
