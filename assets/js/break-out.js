@@ -116,6 +116,20 @@ function moveBall() {
     ballCurrentPostion[0] += xDirection;
     ballCurrentPostion[1] += yDirection;
     drawBall();
+    checkForCollision();
 }
 
 timerId = setInterval(moveBall, 30);
+
+function checkForCollision() {
+        for (let i = 0; i < blocks.length; i++) {
+        if (
+            (ballCurrentPostion[0] > blocks[i].bottomLeft[0] && ballCurrentPostion[0] < blocks[i].bottomRight[0]) &&
+            ((ballCurrentPostion[1] + ballDiameter) > blocks[i].bottomLeft[1] && ballCurrentPostion[1] < blocks[i].topLeft[1])
+        ) {
+            const allBlocks = Array.from(document.querySelectorAll('.block'))
+            allBlocks[i].classList.remove('block');
+            blocks.splice(i, 1)
+        }
+    }
+}
