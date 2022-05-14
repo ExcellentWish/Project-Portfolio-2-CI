@@ -9,14 +9,14 @@ const boardWidth = 560;
 
 const ballDiameter = 20;
 const ballStart = [270, 40]
-let ballCurrentPostion = ballStart;
+let ballCurrentPosition = ballStart;
 
 let timerId;
 let xDirection = -2;
 let yDirection = 2;
 
 const userStart = [230, 10];
-let currentPostion = userStart;
+let currentPosition = userStart;
 
 class Block {
     constructor(xAxis, yAxis) {
@@ -66,37 +66,37 @@ grid.appendChild(user);
 
 // draw the User
 function drawUser() {
-    user.style.left = currentPostion[0] + 'px';
-    user.style.bottom = currentPostion[1] + 'px';
+    user.style.left = currentPosition[0] + 'px';
+    user.style.bottom = currentPosition[1] + 'px';
 }
 
 // move user
 function moveUser(event) {
     switch (event.key) {
         case 'ArrowLeft':
-            if (currentPostion[0] > 0) {
-                currentPostion[0] -= 10;
+            if (currentPosition[0] > 0) {
+                currentPosition[0] -= 10;
                 drawUser();
             }
             break;
     }
     switch (event.key) {
         case 'ArrowRight':
-            if (currentPostion[0] < 470) {
-                currentPostion[0] += 10;
+            if (currentPosition[0] < 470) {
+                currentPosition[0] += 10;
                 drawUser();
             }
             break;
     }
     switch (event.key) {
         case 'ArrowUp':
-            currentPostion[1] += 1;
+            currentPosition[1] += 1;
             drawUser();
             break;
     }
     switch (event.key) {
         case 'ArrowDown':
-            currentPostion[1] -= 1;
+            currentPosition[1] -= 1;
             drawUser();
             break;
     }
@@ -105,8 +105,8 @@ function moveUser(event) {
 document.addEventListener('keydown', moveUser);
 
 function drawBall() {
-    ball.style.left = ballCurrentPostion[0] + 'px';
-    ball.style.bottom = ballCurrentPostion[1] + 'px'
+    ball.style.left = ballCurrentPosition[0] + 'px';
+    ball.style.bottom = ballCurrentPosition[1] + 'px'
 }
 
 const ball = document.createElement('div');
@@ -116,8 +116,8 @@ grid.appendChild(ball);
 
 
 function moveBall() {
-    ballCurrentPostion[0] += xDirection;
-    ballCurrentPostion[1] += yDirection;
+    ballCurrentPosition[0] += xDirection;
+    ballCurrentPosition[1] += yDirection;
     drawBall();
     checkForCollision();
 }
@@ -127,8 +127,8 @@ timerId = setInterval(moveBall, 30);
 function checkForCollision() {
     for (let i = 0; i < blocks.length; i++) {
         if (
-            (ballCurrentPostion[0] > blocks[i].bottomLeft[0] && ballCurrentPostion[0] < blocks[i].bottomRight[0]) &&
-            ((ballCurrentPostion[1] + ballDiameter) > blocks[i].bottomLeft[1] && ballCurrentPostion[1] < blocks[i].topLeft[1])
+            (ballCurrentPosition[0] > blocks[i].bottomLeft[0] && ballCurrentPosition[0] < blocks[i].bottomRight[0]) &&
+            ((ballCurrentPosition[1] + ballDiameter) > blocks[i].bottomLeft[1] && ballCurrentPosition[1] < blocks[i].topLeft[1])
         ) {
             const allBlocks = Array.from(document.querySelectorAll('.block'))
             allBlocks[i].classList.remove('block');
@@ -138,9 +138,9 @@ function checkForCollision() {
 
 
         // check for the wall collision
-        if (ballCurrentPostion[0] >= (boardWidth - ballDiameter) ||
-            ballCurrentPostion[1] >= (boardHeight - ballDiameter) ||
-            (ballCurrentPostion[0] <= 0) || (ballCurrentPostion[1] < 0)) {
+        if (ballCurrentPosition[0] >= (boardWidth - ballDiameter) ||
+            ballCurrentPosition[1] >= (boardHeight - ballDiameter) ||
+            (ballCurrentPosition[0] <= 0) || (ballCurrentPosition[1] < 0)) {
             changeDirection();
         }
     }
