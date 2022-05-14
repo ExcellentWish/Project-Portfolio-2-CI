@@ -4,7 +4,7 @@ const grid = document.querySelector('.break-out-grid');
 const blockWidth = 100;
 const blockHeight = 20;
 
-const boardHeight = 300
+const boardHeight = 300;
 const boardWidth = 560;
 
 const ballDiameter = 20;
@@ -131,36 +131,54 @@ function checkForCollision() {
             ((ballCurrentPosition[1] + ballDiameter) > blocks[i].bottomLeft[1] && ballCurrentPosition[1] < blocks[i].topLeft[1])
         ) {
             const allBlocks = Array.from(document.querySelectorAll('.block'))
-            allBlocks[i].classList.remove('block');
-            blocks.splice(i, 1);
-            changeDirection();
+            allBlocks[i].classList.remove('block')
+            blocks.splice(i, 1)
+            changeDirection()
+            score++
+            scoreDisplay.innerHTML = score
+            if (blocks.length == 0) {
+                scoreDisplay.innerHTML = 'You Win!'
+                clearInterval(timerId)
+                document.removeEventListener('keydown', moveUser)
+            }
         }
+    }
+    // check for wall hits
+    if (ballCurrentPosition[0] >= (boardWidth - ballDiameter) || ballCurrentPosition[0] <= 0 || ballCurrentPosition[1] >= (boardHeight - ballDiameter)) {
+        changeDirection()
+    }
 
+    //check for user collision
+    if (
+        (ballCurrentPosition[0] > currentPosition[0] && ballCurrentPosition[0] < currentPosition[0] + blockWidth) &&
+        (ballCurrentPosition[1] > currentPosition[1] && ballCurrentPosition[1] < currentPosition[1] + blockHeight)
+    ) {
+        changeDirection()
+    }
 
-        // check for the wall collision
-        if (ballCurrentPosition[0] >= (boardWidth - ballDiameter) ||
-            ballCurrentPosition[1] >= (boardHeight - ballDiameter) ||
-            (ballCurrentPosition[0] <= 0) || (ballCurrentPosition[1] < 0)) {
-            changeDirection();
-        }
+    //game over
+    if (ballCurrentPosition[1] <= 0) {
+        clearInterval(timerId)
+        scoreDisplay.innerHTML = 'You lose!'
+        document.removeEventListener('keydown', moveUser)
     }
 }
 
-function changeDirection(){
-    if(xDirection === 2 && yDirection == 2){
-      yDirection = -2;
-      return;
+function changeDirection() {
+    if (xDirection === 2 && yDirection == 2) {
+        yDirection = -2;
+        return;
     }
-    if(xDirection === 2 && yDirection === -2){
-      xDirection = -2;
-      return;
+    if (xDirection === 2 && yDirection === -2) {
+        xDirection = -2;
+        return;
     }
-    if(xDirection === -2 && yDirection === -2){
-    yDirection = 2;
-      return;
+    if (xDirection === -2 && yDirection === -2) {
+        yDirection = 2;
+        return;
     }
-    if(xDirection === -2 && yDirection === 2){
-      xDirection = 2;
-      return;
+    if (xDirection === -2 && yDirection === 2) {
+        xDirection = 2;
+        return;
     }
 }
