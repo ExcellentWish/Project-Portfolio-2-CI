@@ -120,3 +120,5 @@ Reference codes
 https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
 
 whack a mole image found https://flyclipart.com/whack-a-mole-mole-png-57119 edited with gimp
+
+https://www.pngwing.com/ for images for index page
