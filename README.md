@@ -122,3 +122,6 @@ https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
 whack a mole image found https://flyclipart.com/whack-a-mole-mole-png-57119 edited with gimp
 
 https://www.pngwing.com/ for images for index page
+https://www.w3schools.com/howto/howto_js_slideshow.asp for index main navigation
+
+https://www.youtube.com/watch?v=ec8vSKJuZTk&t=3746s inspired by Ania Kubów  https://github.com/kubowania
