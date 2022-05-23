@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     border: none;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 /* Navigation for index pages */
@@ -52,9 +52,12 @@
     margin: auto;
 }
 
-/* Hide the images by default */
+/* Images to center of div */
 .mySlides {
-    display: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 /* Next & previous buttons */
@@ -128,6 +131,8 @@
     animation-name: fade;
     animation-duration: 1.5s;
 }
+
+
 
 @keyframes fade {
     from {
