@@ -44,8 +44,11 @@
 
 
 /*for index html*/
+h1{
+    text-align: center;
+}
 #game-library {
-    height: 400px;
+    height: 600px;
     border: 1px solid black;
     max-width: 1000px;
     position: relative;
