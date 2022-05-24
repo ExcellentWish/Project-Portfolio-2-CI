@@ -1,5 +1,5 @@
 # Game Library
-My website [live here](https://excellentwish.github.io/first_html_css_ci_project/)
+My website [live here](https://excellentwish.github.io/Project-Portfolio-2-CI/)
 
 ## Project Portfolio 2- JavaScript Essentials - Code Institute.
 ### Site Overview
@@ -49,15 +49,11 @@ To organize my thoughts and prevent scope creep, I created wireframes for this p
 
 **The navigation** 
 
-**The Cult theme** 
+**The Game Library theme** 
 
 **The information** 
 
-**The Video** 
-
-**Discography**
-
-**Contact**
+**The Games** 
 
 **Footer** 
 
@@ -99,21 +95,21 @@ Again we have a light background with a dark font to allow user accessibility.
 # Deployment
 I deployed the page on GitHub pages via the following procedure: -
 
-1. From the project's [repository](https://github.com/ExcellentWish/first_html_css_ci_project), go to the **Settings** tab.
+1. From the project's [repository](), go to the **Settings** tab.
 2. From the left-hand menu, select the **Pages** tab.
 3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
 4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 
-You  can find the live site via the following URL - [Cult Called Man](https://excellentwish.github.io/first_html_css_ci_project/)
+You  can find the live site via the following URL - [n]())
 
 # Credits 
 My Mentor Rahul Lakhanpal who helped me develop this project.
-To David Bowers for his webinar on project portfolio 1 and his [Github](https://github.com/dnlbowers)
-To Dcode and his [Youtube](https://www.youtube.com/watch?v=rnhoY5Cdmy0) channel for help with the grid.
-To Anna Greaves and her Love Running [project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)
+To Anna Greaves and her Love math [project]()
 ## Media
 Google fonts [cabin](https://fonts.google.com/specimen/Cabin?query=cabin)
 [Font awesome](https://fontawesome.com/kits/0f96215e04/use)for social media
+
+https://www.w3schools.com/howto/howto_js_mobile_navbar.asp for the hamburger menu
 
 
 Reference codes 
