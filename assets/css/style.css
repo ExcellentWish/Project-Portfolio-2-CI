@@ -124,7 +124,6 @@ h1{
     transition: background-color 0.6s ease;
 }
 
-.active,
 .dot:hover {
     background-color: #717171;
 }
@@ -240,4 +239,8 @@ footer {
     border: 1px solid black;
     display: flex;
     height: 100px;
+    background-color: red;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
 }
