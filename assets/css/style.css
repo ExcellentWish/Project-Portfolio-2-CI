@@ -44,9 +44,10 @@
 
 
 /*for index html*/
-h1{
+h1 {
     text-align: center;
 }
+
 #game-library {
     height: 600px;
     border: 1px solid black;
@@ -210,18 +211,20 @@ h1{
 }
 
 /*For connect4*/
+.connect4-grid div {
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
 .connect4-grid {
     border: 1px solid;
+    background-color: blue;
     height: 244px;
     width: 284px;
     display: flex;
     flex-wrap: wrap;
-}
-
-.connect4-grid div {
-    height: 40px;
-    width: 40px;
-    border: 1px solid black;
 }
 
 .player-one {
@@ -233,10 +236,11 @@ h1{
     background-color: yellow;
     border-radius: 20px;
 }
-.hide{
+
+.hide {
     display: none;
 }
-
+/*footer for all pages*/
 footer {
     position: fixed;
     bottom: 0;
