@@ -225,6 +225,10 @@ h1 {
     width: 284px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .player-one {
@@ -240,6 +244,7 @@ h1 {
 .hide {
     display: none;
 }
+
 /*footer for all pages*/
 footer {
     position: fixed;
