@@ -166,6 +166,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     border: 1px soild black;
+    
 }
 
 .square {
@@ -247,8 +248,21 @@ h1 {
 
 /*footer for all pages*/
 footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
+    border: 1px solid black;
+    display: flex;
+    height: 100px;
+    background-color: red;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+.wam-footer{
+    
+    position: absolute;
+    bottom: auto;
     border: 1px solid black;
     display: flex;
     height: 100px;
