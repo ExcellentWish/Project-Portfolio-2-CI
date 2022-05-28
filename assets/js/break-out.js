@@ -90,18 +90,24 @@ function moveUser(event) {
             break;
     }
     switch (event.key) {
-        case 'ArrowUp':
-            currentPosition[1] += 1;
-            drawUser();
+        case 'a':
+            if (currentPosition[0] > 0) {
+                currentPosition[0] -= 10;
+                drawUser();
+            }
             break;
     }
     switch (event.key) {
-        case 'ArrowDown':
-            currentPosition[1] -= 1;
-            drawUser();
+        case 'd':
+            if (currentPosition[0] < 470) {
+                currentPosition[0] += 10;
+                drawUser();
+            }
             break;
     }
+
 }
+
 
 document.addEventListener('keydown', moveUser);
 
