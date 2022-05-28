@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #0fff;
+}
+
 /* Navigation for index pages */
 .topnav {
     overflow: hidden;
@@ -56,12 +60,20 @@ h1 {
     margin: auto;
 }
 
+.breakout-img {
+    width: 120%;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: -60px;
+}
+
 /* Images to center of div */
 .mySlides {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    height: auto;
 }
 
 /* Next & previous buttons */
@@ -132,7 +144,7 @@ h1 {
 /* Fading animation */
 .fade {
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
 }
 
 
