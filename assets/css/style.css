@@ -48,7 +48,7 @@ body {
 
 
 /*for index html*/
-h1 {
+h1,h2 {
     text-align: center;
 }
 
@@ -107,18 +107,18 @@ h1 {
 
 /* Caption text */
 .text {
-    color: #f2f2f2;
+    color: #020000;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
     width: 100%;
-    text-align: center;
+    text-align: left;
 }
 
 /* Number text (1/4 etc) */
 .numbertext {
-    color: #f2f2f2;
+    color: #690909;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
@@ -233,17 +233,18 @@ h1 {
 
 /*For connect4*/
 .connect4-grid div {
-    height: 40px;
-    width: 40px;
+    height: 80px;
+    width: 80px;
     border: 1px solid white;
-    border-radius: 20px;
+    border-radius: 40px;
 }
 
 .connect4-grid {
     border: 1px solid;
+    border-radius: 20px;
     background-color: blue;
-    height: 244px;
-    width: 284px;
+    height: 488px;
+    width: 568px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -264,6 +265,9 @@ h1 {
 
 .hide {
     display: none;
+}
+.connect4-rules{
+    text-align: center;
 }
 
 /*footer for all pages*/
