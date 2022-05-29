@@ -59,7 +59,7 @@ h1 {
     position: relative;
     margin: auto;
 }
-
+/*break out image on index was too big and off center*/
 .breakout-img {
     width: 120%;
     height: 100%;
@@ -159,6 +159,11 @@ h1 {
     }
 }
 
+.index-paragraph{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*for rock paper sissors*/
 #rpsls-game {
