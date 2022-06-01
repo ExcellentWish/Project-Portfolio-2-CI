@@ -274,7 +274,12 @@ h1,h2 {
 .connect4-rules{
     text-align: center;
 }
-
+/*whack amole footer*/ 
+.wam-footer{
+    position: relative;
+    bottom:0;
+    left:0;
+}
 /*footer for all pages*/
 footer {
     position: absolute;
