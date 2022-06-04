@@ -330,6 +330,21 @@ h2 {
     border-radius: 10px;
     background-color: black;
 }
+.break-out-buttons{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.break-out-buttons button{
+    padding: 15px 45px;
+    margin: auto .5em;
+    background-color: inherit;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    outline: none;
+}
 
 /*For connect4*/
 .connect4-grid div {
