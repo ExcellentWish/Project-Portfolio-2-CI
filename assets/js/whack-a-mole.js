@@ -31,6 +31,17 @@ function moveMole(){
 }
 
 moveMole();
+
+function stopMole(){
+    clearInterval(timerId)
+    clearInterval(countDownTimerId)
+}
+
+function restartMole(){
+    timerId =setInterval(randomSquare, 1000)
+    countDownTimerId = setInterval(countDown, 1000)
+}
+
 function countDown(){
     currentTime--;
     timeLeft.textContent = currentTime;
@@ -53,9 +64,8 @@ function reset() {
     timerId = null;
     result = 0;
     score.textContent = result;
-    
     countDownTimerId = setInterval(countDown, 1000)
-    timerId = setInterval(randomSquare, 1000);
-    
-     
+    timerId = setInterval(randomSquare, 1000);   
 }
+
+

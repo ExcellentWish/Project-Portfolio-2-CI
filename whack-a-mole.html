@@ -32,9 +32,18 @@
     <h2>Your Time Left: </h2>
     <h2 id="time-left">60</h2>
 
-    <div id="wam-reset">
-        <button>Reset</button>
+     <div class="whack-a-mole-btns">
+        <div id="wam-reset">
+            <button>Reset</button>
+        </div>
+        <div id="pause">
+            <button onclick="stopMole()">Pause</button>
+        </div>
+        <div id="play">
+            <button onclick="restartMole()">Play</button>
+        </div>
     </div>
+    
     <div class="whackamole-rules">
         <p>The rules are simple. Whack the mole with your mouse, by clicking on him to get a score</p>
     </div>

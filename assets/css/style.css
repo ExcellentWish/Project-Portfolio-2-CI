@@ -281,6 +281,21 @@ h2 {
     justify-content: center;
     text-align: center;
 }
+.whack-a-mole-btns{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.whack-a-mole-btns button{
+    padding: 15px 45px;
+    margin: .2em;
+    background-color: inherit;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    outline: none; 
+}
 
 /*for break out*/
 .break-out-grid {
