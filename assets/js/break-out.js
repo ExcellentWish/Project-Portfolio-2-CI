@@ -131,6 +131,14 @@ function moveBall() {
 
 timerId = setInterval(moveBall, 30);
 
+function pauseGame() {
+    clearInterval(timerId);
+}
+
+function restartGame(){
+    timerId = setInterval(moveBall, 30)
+}
+
 function checkForCollision() {
     for (let i = 0; i < blocks.length; i++) {
         if (
