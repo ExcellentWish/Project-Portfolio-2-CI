@@ -55,6 +55,84 @@ To organize my thoughts and prevent scope creep, I created wireframes for this p
 
 **The Games** 
 
+##  1. Rock Paper Scissors
+It is a simple JS game that checks for win, loss or draw against computer choice. It uses basic if/else and forEach condtions with simple HTML and CSS.
+
+it uses following js basic methods:
+
+ - getElementById
+ - addEventListener
+ - forEach
+ - querySelectorAll
+ - Math.random()
+ - innerHTML
+ - event.target. id
+ - Math.floor()
+
+
+##   2. Whac-a-mole
+In this game we have build a grid that randomly display the mole that we have to click on to get points in our defined time period.
+
+it uses following js basic methods:
+
+ - querySelectorAll
+ - querySelector
+ - Math.random()
+ - Math.floor()
+ -  forEach
+ - addEventListener
+ - TextContent
+ - Alert
+ - id
+ - setInterval()
+ - clearInterval()
+
+
+
+##  3. Breakout
+In this game we have build a 2D breakout in which you have to break all the blocks  infront of you.
+
+it uses following js basic methods:
+
+ - querySelector                                              
+ - class
+ - constructor
+ - this
+ - bottomLeft
+ - bottomRight
+ - topLeft
+ - topRight
+ - classList.add()
+ - createElement
+ - style.left
+ - style.bottom
+ - appendChild()
+ - event.key
+ - switch
+ - setInterval()
+ - clearInterval()
+ - removeEventListener()
+ - length
+ - splice()
+ - classList.remove()
+ - Array.from()
+
+
+##  4. Connect Four
+This is quite a harder game to build in which instead of modulus approad we have define indexs to create a match
+
+it uses following Javascript methods:
+
+ - querySelector                                              
+ - querySelectorAll
+ - length
+ - classList.contains()
+ - addEventListener()
+ - innerHTML
+ - onClick
+ - classList.add()
+ - alert
+
 **Footer** 
 
 **Typography**
