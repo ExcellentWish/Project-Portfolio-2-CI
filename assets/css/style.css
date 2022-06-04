@@ -181,6 +181,23 @@ h2 {
     text-align: center;
 }
 
+#rpsls-choices {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 10em;
+    max-width: 100%;
+}
+
+#rpsls-reset {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 10em;
+}
+
 #rpsls-reset button {
     padding: 15px 45px;
     margin: .2em;
