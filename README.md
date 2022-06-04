@@ -20,15 +20,16 @@ My website [live here](https://excellentwish.github.io/Project-Portfolio-2-CI/)
    
 # Planning stage
 ### Target Audiences:
+* The audiences for this is for retro gamers. Or gamers in gerneral. A place with a small collection of games from our past.
 * 
 
 ## User Experience
-* 
+* I want the games to be simple and from our past. I started with Rock,Paper Sissors but decided to change it to the Rock,Paper,Sissors Lizard Spock too add alittle bit of difficulty to one of our most basic games that we played as children.
 ## Site Aims:
-* 
+* I wanted to learn JavaScript and probably the most engaging way is through games and the best way for programs to be responive is through games.
 
 ## How Is This Will Be Achieved:
-* 
+* By using JavaScript ,Html and CSS
 
 ## Wireframes
 To organize my thoughts and prevent scope creep, I created wireframes for this project. Below are links to each of the mobile and desktop versions.
@@ -44,6 +45,9 @@ To organize my thoughts and prevent scope creep, I created wireframes for this p
 
 
 # What's on the table?
+The header element stays on the top of the page. It contains the navigation links in a hamburger menu as it seems to be industry standard now and provide a more pleasant UX and adheres to popular conventions better.
+
+The navigation will be in the header, and the header will be on all pages were the user can navigate to different games or home.
 
 **The header element** 
 
@@ -168,7 +172,7 @@ Again we have a light background with a dark font to allow user accessibility.
  
 
 # Testing
-
+ Making the page responsive 
 
 # Deployment
 I deployed the page on GitHub pages via the following procedure: -
