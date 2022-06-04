@@ -6,7 +6,8 @@
 }
 
 body {
-    background-color: #0fff; /*change this*/
+    background-color: #0fff;
+    /*change this*/
 }
 
 /* Navigation for index pages */
@@ -48,7 +49,8 @@ body {
 
 
 /*for index html*/
-h1,h2 {
+h1,
+h2 {
     text-align: center;
 }
 
@@ -59,6 +61,7 @@ h1,h2 {
     position: relative;
     margin: auto;
 }
+
 /*break out image on index was too big and off center*/
 .breakout-img {
     width: 120%;
@@ -159,7 +162,7 @@ h1,h2 {
     }
 }
 
-.index-paragraph{
+.index-paragraph {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -176,6 +179,62 @@ h1,h2 {
     display: block;
     justify-content: center;
     text-align: center;
+}
+
+#rpsls-reset button {
+    padding: 15px 45px;
+    margin: .2em;
+    background-color: inherit;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#rpsls-choices button {
+    padding: 15px 45px;
+    margin: .2em;
+    background-color: inherit;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: calc(100% - 15px);
+}
+
+#rock {
+    background-image: url(../images/icon-rock.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#paper {
+    background-image: url(../images/icon-paper.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#sissors {
+    background-image: url(../images/icon-scissors.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#spock {
+    background-image: url(../images/icon-spock.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#lizard {
+    background-image: url(../images/icon-lizard.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 /*Whack a mole*/
@@ -201,10 +260,12 @@ h1,h2 {
     background-image: url(../images/whack-a-mole.png);
     background-position: center;
 }
-.whackamole-rules{
+
+.whackamole-rules {
     justify-content: center;
     text-align: center;
 }
+
 /*for break out*/
 .break-out-grid {
     position: relative;
@@ -273,15 +334,18 @@ h1,h2 {
 .hide {
     display: none;
 }
-.connect4-rules{
+
+.connect4-rules {
     text-align: center;
 }
-/*whack amole footer*/ 
-.wam-footer{
+
+/*whack amole footer*/
+.wam-footer {
     position: relative;
-    bottom:0;
-    left:0;
+    bottom: 0;
+    left: 0;
 }
+
 /*footer for all pages*/
 footer {
     position: absolute;
@@ -295,18 +359,20 @@ footer {
     margin-bottom: 0px;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
     * {
         margin: 0;
         padding: 0;
         border: none;
         box-sizing: border-box;
     }
+
     body {
         width: 90%;
         margin: 2em auto;
         font: 1em/1.3 Arial, Helvetica, sans-serif;
     }
+
     #game-library {
         height: 300px;
         border: 1px solid black;
@@ -314,13 +380,14 @@ footer {
         position: relative;
         margin: auto;
     }
+
     .breakout-img {
         width: 60%;
         height: 50%;
         margin-top: 25px;
         margin-left: -30px;
     }
-    
+
     /* Images to center of div */
     .mySlides {
         display: block;
@@ -329,6 +396,7 @@ footer {
         width: 50%;
         height: auto;
     }
+
     .mySlides img {
         display: block;
         margin-left: auto;
