@@ -4,11 +4,13 @@
     border: none;
     box-sizing: border-box;
 }
-html{
+
+html {
     width: 100%;
     height: 100vh;
     font-family: 'Courier New', Courier, monospace;
 }
+
 body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/background.jpg');
 }
@@ -284,20 +286,22 @@ h2 {
     justify-content: center;
     text-align: center;
 }
-.whack-a-mole-btns{
+
+.whack-a-mole-btns {
     display: flex;
     height: 100%;
     align-items: center;
     justify-content: center;
 }
-.whack-a-mole-btns button{
+
+.whack-a-mole-btns button {
     padding: 15px 45px;
     margin: .2em;
     background-color: inherit;
     border: 2px solid #fff;
     color: #fff;
     border-radius: 50%;
-    outline: none; 
+    outline: none;
 }
 
 /*for break out*/
@@ -333,13 +337,15 @@ h2 {
     border-radius: 10px;
     background-color: black;
 }
-.break-out-buttons{
+
+.break-out-buttons {
     display: flex;
     height: 100%;
     align-items: center;
     justify-content: center;
 }
-.break-out-buttons button{
+
+.break-out-buttons button {
     padding: 15px 45px;
     margin: auto .5em;
     background-color: inherit;
@@ -405,23 +411,35 @@ footer {
     margin-bottom: 0px;
     display: flex;
     height: 50px;
-    background-color: #cac28b; 
+    background-color: #cac28b;
     text-align: center;
 }
 
-footer h4, h5, h6{
+footer h4,
+h5,
+h6 {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
     text-align: center;
 }
 
+@media screen and (max-width: 1280px) {
+    html,body {
+        margin:0;
+        padding:0;
+        overflow-x:hidden;
+        }
+    
+}
+
 @media screen and (max-width: 912px) {
-    html{
+    html {
         width: 100%;
         height: 100vh;
         font-family: 'Courier New', Courier, monospace;
     }
+
     body {
         width: 90%;
         margin: 2em auto;
@@ -460,14 +478,16 @@ footer h4, h5, h6{
     }
 }
 
-@media screen and (max-width: 500px){
-    html{
+@media screen and (max-width: 500px) {
+    html {
         width: 50vw;
-        height: 50vh;  
+        height: 50vh;
     }
-    body{
+
+    body {
         font-size: 50%;
     }
+
     #game-library {
         height: 300px;
         width: 50vw;
@@ -475,6 +495,7 @@ footer h4, h5, h6{
         margin-left: auto;
         margin-right: auto;
     }
+
     .index-paragraph {
         text-align: center;
         margin-left: auto;
