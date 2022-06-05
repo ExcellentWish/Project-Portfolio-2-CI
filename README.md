@@ -50,13 +50,14 @@ The header element stays on the top of the page. It contains the navigation link
 The navigation will be in the header, and the header will be on all pages were the user can navigate to different games or home.
 
 **The header element** 
+Using it for navigation to index page and a hamburger menu to link to other pages 
 
 **The navigation** 
-
+Using a hamburger menu 
 **The Game Library theme** 
-
+Used a powerpoint light image as it looks nice and modern
 **The information** 
-
+The information is the rules for the games. Some are self explanatory
 **The Games** 
 
 ##  1. Rock Paper Scissors
@@ -159,7 +160,7 @@ Again we have a light background with a dark font to allow user accessibility.
 
 ![]()
 
-**The contact section** 
+
 
 **Footer** 
 
@@ -173,6 +174,11 @@ Again we have a light background with a dark font to allow user accessibility.
 
 # Testing
  Making the page responsive 
+ using the website https://ui.dev/amiresponsive?url=https://excellentwish.github.io/Project-Portfolio-2-CI/
+ Isuues for break out 
+ issues for index page 
+
+
 
 # Deployment
 I deployed the page on GitHub pages via the following procedure: -
@@ -189,7 +195,7 @@ My Mentor Rahul Lakhanpal who helped me develop this project.
 To Anna Greaves and her Love math [project]()
 ## Media
 Google fonts [cabin](https://fonts.google.com/specimen/Cabin?query=cabin)
-[Font awesome](https://fontawesome.com/kits/0f96215e04/use)for social media
+[Font awesome](https://fontawesome.com/kits/0f96215e04/use)
 
 https://www.w3schools.com/howto/howto_js_mobile_navbar.asp for the hamburger menu
 
@@ -201,5 +207,5 @@ whack a mole image found https://flyclipart.com/whack-a-mole-mole-png-57119 edit
 
 https://www.pngwing.com/ for images for index page
 https://www.w3schools.com/howto/howto_js_slideshow.asp for index main navigation
-
+Background image from powerpoint
 https://www.youtube.com/watch?v=ec8vSKJuZTk&t=3746s inspired by Ania Kubów  https://github.com/kubowania
