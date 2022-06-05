@@ -37,13 +37,13 @@ My website [live here](https://excellentwish.github.io/Project-Portfolio-2-CI/)
 To organize my thoughts and prevent scope creep, I created wireframes for this project. Below are links to each of the mobile and desktop versions.
 
   Desktop
- * [
+ ![]()
  Mobile
- * 
+ ![]()
  
  Color Scheme
-
-![coolors colors]()
+I found a light theme from powerpoint that I like and thought it had a calming feel about it.
+![Power point back ground](assets/images/background.jpg)
 
 
 # What's on the table?
@@ -63,6 +63,7 @@ The information is the rules for the games. Some are self explanatory
 **The Games** 
 
 ##  1. Rock Paper Scissors Lizard Spock
+![Rock Paper Scissors Lizard Spock](docs/screenshots/rpsls.PNG)
 It is a simple JS game that checks for win, loss or draw against computer choice. It uses basic if/else and forEach condtions with simple HTML and CSS.
 
 Rock Paper Scissors is a fun game tradionally played by two people using their hands to make the rock paper scissors signs.This game has the modern twist from The Big Bang Theroy to add spock and lizard. This game the user and computer will choose one of the Five icons (rock, paper, scissors, spock and lizard) available for selection. Paper covers rock,rock crushes lizard, lizard poisons Spock, Spock smashes scissors, scissors decapitates lizard, lizard eats paper, paper disproves Spock, Spock vaporizes rock, and as it always has, rock crushes scissors. If both players select the same shape, the game is a draw.
@@ -82,6 +83,7 @@ it uses following js basic methods:
 
 
 ##   2. Whack-a-mole
+![Whack-a-mole](docs/screenshots/whack-a-mole.PNG)
 In this game we have build a grid that randomly display the mole that we have to click on to get points in our defined time period.
 
 Whack-a-mole is a fun game tradionally played by one player. In the funfair or carnival the player would use the hammer to hit the mole for a point. This uses the mouse as the hammer. See ho many points you can get in 1 minute. It has the function to reset it, pause and play.
@@ -102,6 +104,7 @@ it uses following js basic methods:
 
 
 ##  3. Breakout
+![Breakout](docs/screenshots/break-out.PNG)
 In this game we have build a 2D breakout in which you have to break all the blocks  infront of you.
 
 In Break out its was a game from the Atari game console. This retro game, you bounce the ball from your bloack to destroy the other blocks. Its a fun single player game from the 80's. Use the arrow keys left and right to move or you can use the A key and D key to move.
@@ -133,6 +136,7 @@ it uses following js basic methods:
 
 
 ##  4. Connect Four
+![Connect Four](docs/screenshots/connect4.PNG)
 This is quite a harder game to build in which instead of modulus approad we have define indexs to create a match
 
 Connect 4 is the classic children's game designed for two players that need to connect four of their chips in a row either vertically, horizontally or diagonally to win. This is a two player game like the original game and has red vs yellow.
@@ -149,20 +153,14 @@ it uses following Javascript methods:
  - classList.add()
  - alert
 
-**Footer** 
-
 **Typography**
-
-# Actual website
-
+Used Courier New', Courier, monospace
 
 Lets start with the header.
 ![]()
 
 This **header** 
 
-Next we the **information section** of the web page. T
-![](do)
 
 Again we have a light background with a dark font to allow user accessibility.
 
@@ -171,9 +169,6 @@ Again we have a light background with a dark font to allow user accessibility.
 
 ![]()
 
-
-
-**Footer** 
 
 
 
