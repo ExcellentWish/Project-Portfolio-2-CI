@@ -7,6 +7,8 @@ My website [live here](https://excellentwish.github.io/Project-Portfolio-2-CI/)
 
 ![Am I responsive screenshot](docs/screenshots/responsivepp2.PNG)
 
+This is a simple website that has 4 games from my childhood and I belive other people too. I wanted a responsive website and the best way to be responive is to play games. 
+
 # Table of Contents
 + [Site Overview](#site-overview)
 + [Planning stage](#planning-stage)
