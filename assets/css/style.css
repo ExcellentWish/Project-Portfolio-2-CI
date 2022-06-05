@@ -425,63 +425,42 @@ h6 {
 }
 
 @media screen and (max-width: 1280px) {
-    html,body {
-        margin:0;
-        padding:0;
-        overflow-x:hidden;
-        }
-    footer{
-        margin:0;
-        padding:0;
-        overflow-x:hidden;
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    footer {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
         position: fixed;
     }
 }
 
-@media screen and (max-width: 912px) {
-    html {
-        width: 100%;
-        height: 100vh;
-        font-family: 'Courier New', Courier, monospace;
-    }
+@media screen and (max-width: 768px) {
 
+    html,
     body {
-        width: 90%;
-        margin: 2em auto;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
     }
 
-    #game-library {
-        height: 750px;
-        border: 1px solid black;
-        max-width: 645px;
+    .wam-footer {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
         position: relative;
-        margin: auto;
-    }
-
-    .breakout-img {
-        width: 60%;
-        height: 50%;
-        margin-top: 25px;
-        margin-left: -30px;
-    }
-
-    /* Images to center of div */
-    .mySlides {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        height: auto;
-    }
-
-    .mySlides img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        height: auto;
+        bottom: 0;
+        left: 0;
+        height: 72px;
     }
 }
+
 
 @media screen and (max-width: 500px) {
     html {
