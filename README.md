@@ -5,7 +5,7 @@ My website [live here](https://excellentwish.github.io/Project-Portfolio-2-CI/)
 ### Site Overview
 
 
-![Am I responsive screenshot]()
+![Am I responsive screenshot](docs/screenshots/responsivepp2.PNG)
 
 # Table of Contents
 + [Site Overview](#site-overview)
