@@ -462,27 +462,54 @@ h6 {
 }
 
 
-@media screen and (max-width: 500px) {
-    html {
-        width: 50vw;
-        height: 50vh;
-    }
-
+@media screen and (max-width: 320px) {
+    html,
     body {
-        font-size: 50%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        max-width: fit-content;
+        max-height: fit-content;
     }
-
-    #game-library {
-        height: 300px;
-        width: 50vw;
-        border: 1px solid black;
-        margin-left: auto;
-        margin-right: auto;
+    h1{
+        font-size: auto;
     }
-
-    .index-paragraph {
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
+    #game-library{
+        height: 240px;
+        width: 320px;
     }
+    .mySlides img{
+        max-width:100%;
+        max-height:100%;
+    }
+    .breakout-img {
+        width: 120%;
+        height: 100%;
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+    #rpsls-game {
+        font-size: 10px;
+        
+    }
+     
+    #rpsls-choices {
+        font-size: 10px; 
+        display: flex;     
+    }
+    #rpsls-choices button {
+        flex-wrap: nowrap;
+    }
+    
+    #rpsls-reset {
+        font-size: 10px;
+    }
+    
+    #rpsls-reset button {
+        font-size: 10px;
+    }
+    
+    
+    
+   
 }
