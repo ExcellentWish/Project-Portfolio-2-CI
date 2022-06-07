@@ -200,7 +200,7 @@ You can find the live site via the following URL - [Project 2](https://excellent
 My Mentor Rahul Lakhanpal who helped me develop this project.
 To Anna Greaves and her Love math [project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/234519d86b76411aa181e76a55dabe70/)
 ## Media
-Google fonts [cabin](https://fonts.google.com/specimen/Cabin?query=cabin)
+Google fonts [Courier Prime]https://fonts.google.com/specimen/Courier+Prime?query=Courier+#standard-styles)
 [Font awesome](https://fontawesome.com/kits/0f96215e04/use)
 
 Rock Paper sissors lizard spock found on https://www.svgrepo.com/
@@ -208,12 +208,16 @@ Rock Paper sissors lizard spock found on https://www.svgrepo.com/
 https://www.w3schools.com/howto/howto_js_mobile_navbar.asp for the hamburger menu
 
 https://www.youtube.com/watch?v=9HcxHDS2w1s Web Dev Simplified for Library
+
 Reference codes 
 https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
 
 whack a mole image found https://flyclipart.com/whack-a-mole-mole-png-57119 edited with gimp
 
 https://www.pngwing.com/ for images for index page
+
 https://www.w3schools.com/howto/howto_js_slideshow.asp for index main navigation
+
 Background image from powerpoint
+
 https://www.youtube.com/watch?v=ec8vSKJuZTk&t=3746s inspired by Ania Kubów  https://github.com/kubowania
