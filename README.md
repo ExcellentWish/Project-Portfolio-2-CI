@@ -161,21 +161,29 @@ it uses following Javascript methods:
 Used Courier New', Courier, monospace
 
 # Tech used 
-
  For this project I used HTML and CSS and JavaScript.
+ I used code from Web Dev Simplified from youtube.
+ I followed the Free code camp javascript course and youtube lesson from Ania Kubów
+ I used my other git hub repos for testing.
+ I created the favicon.ico using https://www.favicon.cc/
 
  
 
 # Testing
- Making the page responsive 
- using the website https://ui.dev/amiresponsive?url=https://excellentwish.github.io/Project-Portfolio-2-CI/ to adjust for mobiles, Tablets and PC
+ Making the page responsive was a real challange. 
+ Using the website https://ui.dev/amiresponsive?url=https://excellentwish.github.io/Project-Portfolio-2-CI/ to adjust for mobiles, Tablets and PC
  Issues for break out, getting it to fit for mobile.
- issues for index page 
- Used other githubs 
+ Issues for index page was getting the images to line up in the center.
+ Used other github repos for testing, links can be found below. 
  https://github.com/ExcellentWish/Project_Portfolio_2 I abandoned and started again with this project
  https://github.com/ExcellentWish/FCC-Retro-games Followed a youtube video which inspired this project
  https://github.com/ExcellentWish/bookcase for the index page.
 
+I used the https://validator.w3.org/ to test my html code.
+I used https://jigsaw.w3.org/css-validator/ to test my CSS code.
+I used https://jshint.com/ to test my JavaScript code.
+I also used lightHouse for desktop.
+![LightHouse Desktop](docs/screenshots/lighthouse_report_desktop.PNG)
 
 
 # Deployment
