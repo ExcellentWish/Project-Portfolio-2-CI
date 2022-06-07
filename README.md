@@ -160,22 +160,6 @@ it uses following Javascript methods:
 **Typography**
 Used Courier New', Courier, monospace
 
-Lets start with the header.
-![]()
-
-This **header** 
-
-
-Again we have a light background with a dark font to allow user accessibility.
-
-
-
-
-![]()
-
-
-
-
 # Tech used 
 
  For this project I used HTML and CSS and JavaScript.
@@ -184,8 +168,8 @@ Again we have a light background with a dark font to allow user accessibility.
 
 # Testing
  Making the page responsive 
- using the website https://ui.dev/amiresponsive?url=https://excellentwish.github.io/Project-Portfolio-2-CI/
- Isuues for break out 
+ using the website https://ui.dev/amiresponsive?url=https://excellentwish.github.io/Project-Portfolio-2-CI/ to adjust for mobiles, Tablets and PC
+ Issues for break out, getting it to fit for mobile.
  issues for index page 
  Used other githubs 
  https://github.com/ExcellentWish/Project_Portfolio_2 I abandoned and started again with this project
@@ -197,19 +181,21 @@ Again we have a light background with a dark font to allow user accessibility.
 # Deployment
 I deployed the page on GitHub pages via the following procedure: -
 
-1. From the project's [repository](), go to the **Settings** tab.
+1. From the project's [repository](https://github.com/ExcellentWish/Project-Portfolio-2-CI), go to the **Settings** tab.
 2. From the left-hand menu, select the **Pages** tab.
 3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
 4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 
-You  can find the live site via the following URL - [n]())
+You can find the live site via the following URL - [Project 2](https://excellentwish.github.io/Project-Portfolio-2-CI/)
 
 # Credits 
 My Mentor Rahul Lakhanpal who helped me develop this project.
-To Anna Greaves and her Love math [project]()
+To Anna Greaves and her Love math [project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/234519d86b76411aa181e76a55dabe70/)
 ## Media
 Google fonts [cabin](https://fonts.google.com/specimen/Cabin?query=cabin)
 [Font awesome](https://fontawesome.com/kits/0f96215e04/use)
+
+Rock Paper sissors lizard spock found on https://www.svgrepo.com/
 
 https://www.w3schools.com/howto/howto_js_mobile_navbar.asp for the hamburger menu
 
