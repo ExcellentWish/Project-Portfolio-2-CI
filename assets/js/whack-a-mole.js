@@ -9,8 +9,8 @@ let timerId = null;
 
 function randomSquare(){
     squares.forEach(square => {
-        square.classList.remove('mole')
-    })
+        square.classList.remove('mole');
+    });
     
     let randomSquare = squares[Math.floor(Math.random() * 9)];
     randomSquare.classList.add('mole');
@@ -23,8 +23,8 @@ squares.forEach(square => {
             score.textContent = result;
             hitPosition = null;
         }
-    })
-})
+    });
+});
 
 function moveMole(){
    timerId = setInterval(randomSquare, 1000);
@@ -33,13 +33,13 @@ function moveMole(){
 moveMole();
 
 function stopMole(){
-    clearInterval(timerId)
-    clearInterval(countDownTimerId)
+    clearInterval(timerId);
+    clearInterval(countDownTimerId);
 }
 
 function restartMole(){
-    timerId =setInterval(randomSquare, 1000)
-    countDownTimerId = setInterval(countDown, 1000)
+    timerId =setInterval(randomSquare, 1000);
+    countDownTimerId = setInterval(countDown, 1000);
 }
 
 function countDown(){
@@ -49,10 +49,10 @@ function countDown(){
     if(currentTime == 0){
         clearInterval(countDownTimerId);
         clearInterval(timerId);
-        alert('Game Over!! You final score is '+result)
+        alert('Game Over!! You final score is '+result);
     }
 }
-let countDownTimerId = setInterval(countDown, 1000)
+let countDownTimerId = setInterval(countDown, 1000);
 
 
 document.getElementById('wam-reset').addEventListener('click', reset);
@@ -64,7 +64,7 @@ function reset() {
     timerId = null;
     result = 0;
     score.textContent = result;
-    countDownTimerId = setInterval(countDown, 1000)
+    countDownTimerId = setInterval(countDown, 1000);
     timerId = setInterval(randomSquare, 1000);   
 }
 
