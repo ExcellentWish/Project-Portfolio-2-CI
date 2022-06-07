@@ -16,14 +16,14 @@ possibleChoice.forEach(possibleChoice => possibleChoice.addEventListener("click"
 
     generateComputerChoice();
     generateResults();
-  }))
+  }));
 
   possibleChoice.forEach(possibleChoice => possibleChoice.removeEventListener("click", (event) => {
       score = 5;
-      score=event.target.id
+      score=event.target.id;
 
      computerScore = 5;
-     computerScore=event.target.id
+     computerScore=event.target.id;
     }));
  
 
@@ -39,7 +39,7 @@ function generateComputerChoice() {
   } else if (randomNumber === 3) {
     computerChoice = "lizard";
   } else if (randomNumber === 4) {
-    computerChoice = "spock"
+    computerChoice = "spock";
   }
   computerChoiceDisplay.innerHTML = computerChoice;
 }
@@ -86,7 +86,7 @@ function generateResults() {
 
   if(score === 5){ // for a win of the game
     getResults = 'You Won The Game';
-    alert('You Won The Game')
+    alert('You Won The Game');
     } else if (computerScore === 5){
     getResults = 'Computer Has Won The Game';  
     alert('Computer Won The Game');
