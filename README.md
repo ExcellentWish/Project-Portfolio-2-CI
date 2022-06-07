@@ -36,7 +36,7 @@ This is a simple website that has 4 games from my childhood and I belive other p
 * By using JavaScript ,Html and CSS
 
 ## Wireframes
-To organize my thoughts and prevent scope creep, I created wireframes for this project. Below are links to each of the mobile and desktop versions.
+To organize my thoughts and prevent scope creep, I created wireframes for this project. Below are wireframes to each of the mobile and desktop versions.
 
   
  ![Index Wireframe](docs/wireframes/wireframe_JS.png)
