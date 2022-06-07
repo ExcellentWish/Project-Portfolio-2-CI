@@ -38,11 +38,13 @@ This is a simple website that has 4 games from my childhood and I belive other p
 ## Wireframes
 To organize my thoughts and prevent scope creep, I created wireframes for this project. Below are links to each of the mobile and desktop versions.
 
-  Desktop
- ![]()
- Mobile
- ![]()
- 
+  
+ ![Index Wireframe](docs/wireframes/wireframe_JS.png)
+ For computers and laptops, there will be the main div and then inside will be the main game area or game selector
+ ![Tablet Wireframe](docs/wireframes/wireframe_tablet.png)
+ For Tablet I will keep the same layout as well as mobile.
+ ![Mobile Wireframe](docs/wireframes/wireFrame_mobile.png)
+
  Color Scheme
 I found a light theme from powerpoint that I like and thought it had a calming feel about it.
 ![Power point back ground](assets/images/background.jpg)
@@ -185,6 +187,10 @@ Again we have a light background with a dark font to allow user accessibility.
  using the website https://ui.dev/amiresponsive?url=https://excellentwish.github.io/Project-Portfolio-2-CI/
  Isuues for break out 
  issues for index page 
+ Used other githubs 
+ https://github.com/ExcellentWish/Project_Portfolio_2 I abandoned and started again with this project
+ https://github.com/ExcellentWish/FCC-Retro-games Followed a youtube video which inspired this project
+ https://github.com/ExcellentWish/bookcase for the index page.
 
 
 
@@ -207,7 +213,7 @@ Google fonts [cabin](https://fonts.google.com/specimen/Cabin?query=cabin)
 
 https://www.w3schools.com/howto/howto_js_mobile_navbar.asp for the hamburger menu
 
-
+https://www.youtube.com/watch?v=9HcxHDS2w1s Web Dev Simplified for Library
 Reference codes 
 https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
 
