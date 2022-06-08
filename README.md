@@ -13,7 +13,7 @@ This is a simple website that has 4 games from my childhood and I belive other p
 + [Site Overview](#site-overview)
 + [Planning stage](#planning-stage)
 + [What's on the table?](#what's-on-the-table?)
-+ [Actual website](#Actual-website)
++ [The Games](#the-games)
 + [Tech used](#tech-used)
 + [Testing](#testing)
 + [Deployment](#deployment)
@@ -64,7 +64,7 @@ Using a hamburger menu
 Used a powerpoint light image as it looks nice and modern
 **The information** 
 The information is the rules for the games. Some are self explanatory
-**The Games** 
+# The Games 
 
 ##  1. Rock Paper Scissors Lizard Spock
 ![Rock Paper Scissors Lizard Spock](docs/screenshots/rpsls.PNG)
@@ -161,28 +161,28 @@ it uses following Javascript methods:
 Used Courier New', Courier, monospace
 
 # Tech used 
- For this project I used HTML and CSS and JavaScript.
- I used code from Web Dev Simplified from youtube.
- I followed the Free code camp javascript course and youtube lesson from Ania Kubów
- I used my other git hub repos for testing.
- I created the favicon.ico using https://www.favicon.cc/
+ - For this project I used HTML and CSS and JavaScript.
+ - I used code from Web Dev Simplified from youtube.
+ - I followed the Free code camp javascript course and youtube lesson from Ania Kubów
+ - I used my other git hub repos for testing.
+ - I created the favicon.ico using https://www.favicon.cc/
 
  
 
 # Testing
- Making the page responsive was a real challange. 
- Using the website https://ui.dev/amiresponsive?url=https://excellentwish.github.io/Project-Portfolio-2-CI/ to adjust for mobiles, Tablets and PC
- Issues for break out, getting it to fit for mobile.
- Issues for index page was getting the images to line up in the center.
- Used other github repos for testing, links can be found below. 
- https://github.com/ExcellentWish/Project_Portfolio_2 I abandoned and started again with this project
- https://github.com/ExcellentWish/FCC-Retro-games Followed a youtube video which inspired this project
- https://github.com/ExcellentWish/bookcase for the index page.
+ - Making the page responsive was a real challange. 
+ - Using the website https://ui.dev/amiresponsive?url=https://excellentwish.github.io/Project-Portfolio-2-CI/ to adjust for mobiles, Tablets and PC
+ - Issues for break out, getting it to fit for mobile.
+ - Issues for index page was getting the images to line up in the center.
+ - Used other github repos for testing, links can be found below. 
+ - https://github.com/ExcellentWish/Project_Portfolio_2 I abandoned and started again with this project
+ - https://github.com/ExcellentWish/FCC-Retro-games Followed a youtube video which inspired this project
+ - https://github.com/ExcellentWish/bookcase for the index page.
 
-I used the https://validator.w3.org/ to test my html code.
-I used https://jigsaw.w3.org/css-validator/ to test my CSS code.
-I used https://jshint.com/ to test my JavaScript code.
-I also used lightHouse for desktop.
+- I used the https://validator.w3.org/ to test my html code.
+- I used https://jigsaw.w3.org/css-validator/ to test my CSS code.
+- I used https://jshint.com/ to test my JavaScript code.
+- I also used lightHouse for desktop.
 ![LightHouse Desktop](docs/screenshots/lighthouse_report_desktop.PNG)
 
 
@@ -197,27 +197,24 @@ I deployed the page on GitHub pages via the following procedure: -
 You can find the live site via the following URL - [Project 2](https://excellentwish.github.io/Project-Portfolio-2-CI/)
 
 # Credits 
-My Mentor Rahul Lakhanpal who helped me develop this project.
-To Anna Greaves and her Love math [project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/234519d86b76411aa181e76a55dabe70/)
+- My Mentor Rahul Lakhanpal who helped me develop this project.
+- To Anna Greaves and her Love math [project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/234519d86b76411aa181e76a55dabe70/)
 ## Media
-Google fonts [Courier Prime]https://fonts.google.com/specimen/Courier+Prime?query=Courier+#standard-styles)
+- Google fonts [Courier Prime]https://fonts.google.com/specimen/Courier+Prime?query=Courier+#standard-styles)
 [Font awesome](https://fontawesome.com/kits/0f96215e04/use)
 
-Rock Paper sissors lizard spock found on https://www.svgrepo.com/
+- Rock Paper sissors lizard spock found on https://www.svgrepo.com/
 
-https://www.w3schools.com/howto/howto_js_mobile_navbar.asp for the hamburger menu
+- https://www.w3schools.com/howto/howto_js_mobile_navbar.asp for the hamburger menu
 
-https://www.youtube.com/watch?v=9HcxHDS2w1s Web Dev Simplified for Library
+- https://www.youtube.com/watch?v=9HcxHDS2w1s Web Dev Simplified for Library
 
-Reference codes 
-https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+- Whack a mole image found https://flyclipart.com/whack-a-mole-mole-png-57119 edited with gimp
 
-whack a mole image found https://flyclipart.com/whack-a-mole-mole-png-57119 edited with gimp
+- https://www.pngwing.com/ for images for index page
 
-https://www.pngwing.com/ for images for index page
+- https://www.w3schools.com/howto/howto_js_slideshow.asp for index main navigation
 
-https://www.w3schools.com/howto/howto_js_slideshow.asp for index main navigation
+- Background image from powerpoint
 
-Background image from powerpoint
-
-https://www.youtube.com/watch?v=ec8vSKJuZTk&t=3746s inspired by Ania Kubów  https://github.com/kubowania
+- https://www.youtube.com/watch?v=ec8vSKJuZTk&t=3746s inspired by Ania Kubów  https://github.com/kubowania
